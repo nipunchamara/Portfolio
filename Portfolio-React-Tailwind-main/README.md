@@ -41,3 +41,4 @@ npm run build
   /App.jsx - Main application
   /main.jsx - Entry point
 ```
+
