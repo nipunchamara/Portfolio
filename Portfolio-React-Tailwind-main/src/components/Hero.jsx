@@ -27,7 +27,7 @@ const Hero = () => {
           onClick={() => {
             const link = document.createElement('a');
             // URL-encode the space as %20
-            link.href = '/W.N.C.K.%20Warnakulasooriya.pdf';
+            link.href = '/W.N.C.K. %20Warnakulasooriya.pdf';
             link.download = 'W.N.C.K. Warnakulasooriya.pdf'; // the downloaded file name
             document.body.appendChild(link);
             link.click();
