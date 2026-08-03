@@ -30,7 +30,7 @@ const Hero = () => {
             const url = window.URL.createObjectURL(blob);
             const link = document.createElement('a');
             link.href = url;
-            link.download = 'W.N.C.K.%20Warnakulasooriya.pdf';
+            link.download = 'W.N.C.K. Warnakulasooriya.pdf';
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
